@@ -1,0 +1,258 @@
+button{
+margin:0px auto; 
+}
+
+.buttonAlign{
+margin-top:150px;
+margin-left:40%;
+}
+
+.goanim{
+
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-play-state: running;
+    -webkit-animation-name: collapseOut;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-play-state: running;
+}
+
+@-webkit-keyframes fallFromTop {
+
+    from {
+        -webkit-transform-origin: 0% 0%;
+        -webkit-transform: rotateY(180deg);
+    }
+
+    to {    
+        -webkit-transform-origin: 0% 0%;    
+        -webkit-transform: rotateY(0deg);
+    }
+}
+
+@-webkit-keyframes rotateOutLeft {
+
+    from {
+        -webkit-transform-origin: 0% 0%;
+    }
+
+    to {
+        -webkit-transform-origin: 0% 0%;
+        -webkit-transform: rotateY(180deg);
+    }
+}
+
+@-webkit-keyframes rotateInRight {
+
+    from {
+        -webkit-transform-origin: 100% 0%;
+        -webkit-transform: rotateY(-180deg);
+        
+    }
+
+    to {
+        -webkit-transform-origin: 100% 0%;
+    }    
+}
+
+@-webkit-keyframes rotateInRightWithoutToKeyframe {
+
+    from {
+        -webkit-transform-origin: 100% 0%;
+        -webkit-transform: rotateY(-180deg);
+    }
+}
+
+@-webkit-keyframes rotateOutRight {
+
+    from {
+        -webkit-transform-origin: 100% 0%;
+    }
+
+    to {
+        -webkit-transform-origin: 100% 0%;
+        -webkit-transform: rotateY(-180deg);
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadeOut {    
+    to {
+        opacity: 0;
+    }        
+}
+
+@-webkit-keyframes whirlIn {
+    from {
+        -webkit-transform-origin: 50% 50%;
+        -webkit-transform: scale(0) rotateZ(1260deg);
+    }
+    
+    to {
+        -webkit-transform-origin: 50% 50%;
+    }
+    
+}
+
+@-webkit-keyframes whirlOut {
+    from {
+        -webkit-transform-origin: 50% 50%;
+    }
+    
+    to {
+        -webkit-transform-origin: 50% 50%;
+        -webkit-transform: scale(0) rotateZ(1260deg);
+    }
+    
+}
+
+@-webkit-keyframes fallFromTop {
+    from {
+        -webkit-transform-origin: 0% 0%;
+        -webkit-transform: rotateX(-180deg);
+        animation-timing-function: ease;
+    }
+
+    50% {
+        -webkit-transform-origin: 0% 0%;
+        -webkit-transform: rotateX(30deg);
+        animation-timing-function: ease;
+    }
+
+    85% {
+        -webkit-transform-origin: 0% 0%;
+        -webkit-transform: rotateX(-10deg);
+        animation-timing-function: ease;
+    }
+        
+    to {
+        -webkit-transform-origin: 0% 0%;
+        -webkit-transform: rotateX(0deg);
+        animation-timing-function: ease;
+    }    
+}
+
+@-webkit-keyframes dropToBottom {
+    from {
+        -webkit-transform-origin: 0% 100%;
+    }
+        
+    to {
+        -webkit-transform-origin: 0% 100%;
+        -webkit-transform: rotateX(180deg);
+    }    
+}
+
+@-webkit-keyframes slideInSkew {
+    from {
+        -webkit-transform-origin: 0% 100%;
+        -webkit-transform: translateX(-200%) skewX(-45deg);
+    }
+
+    50% {
+        -webkit-transform-origin: 0% 100%;
+        -webkit-transform: translateX(0%) skewX(-45deg);
+    }
+
+    90% {
+        -webkit-transform-origin: 0% 100%;
+        -webkit-transform: translateX(0%) skewX(10deg);
+    }
+    
+    to {
+        -webkit-transform-origin: 0% 100%;
+        -webkit-transform:translateX(0%) skewX(0deg);
+    }
+}
+
+@-webkit-keyframes slideOutSkew {    
+    from {
+        -webkit-transform-origin: 0% 100%;
+        -webkit-transform: translateX(0%);
+    }
+    
+    to {
+        -webkit-transform-origin: 0% 100%;
+        -webkit-transform: skewX(-45deg) translateX(200%) ;
+    }
+}
+
+@-webkit-keyframes tumbleIn {
+    from {
+        -webkit-transform-origin: 0% 100%;
+        -webkit-transform: rotateZ(-180deg);        
+    }
+
+    to {
+        -webkit-transform-origin: 0% 100%;
+    }
+    
+}
+
+@-webkit-keyframes tumbleOut {
+    from {
+        -webkit-transform-origin: 100% 100%;       
+    }
+
+    to {
+        -webkit-transform-origin: 100% 100%;
+        -webkit-transform: rotateZ(180deg); 
+    }    
+    
+}
+
+@-webkit-keyframes expandIn {
+    from {
+        -webkit-transform: scale(0);
+    }
+
+    50% {
+        
+        -webkit-transform: scale(1);
+    }
+
+    75% {
+        -webkit-transform: scale(1.2);
+    }
+
+    to {
+        -webkit-transform: scale(1);
+    }
+}
+
+@-webkit-keyframes collapseOut {
+    to {
+        -webkit-transform: scale(0);
+    }
+}
+
+@-webkit-keyframes slideDown {
+	0% {
+		-webkit-transform: translateY(-100%);
+		
+	}
+}
+
+@-webkit-keyframes slideUp {
+	0% {
+		-webkit-transform: translateY(100%);
+	}
+}
+
+@-webkit-keyframes slideLeft {
+	0% {
+		-webkit-transform: translateX(150%);
+	}
+}
+
+@-webkit-keyframes slideRight {
+	0% {
+		-webkit-transform: translateX(-150%);
+	}
+}
