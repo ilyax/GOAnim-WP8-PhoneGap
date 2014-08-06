@@ -1,4 +1,4 @@
-GOAnim-WP8-PhoneGap
+GOAnim WP8 PhoneGap
 ===================
 
 WP8 PhoneGap CSS3 Animation javascript helper
